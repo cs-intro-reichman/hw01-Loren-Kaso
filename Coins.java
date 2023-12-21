@@ -4,6 +4,13 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		// Put your code here
-	}
+		Scanner input2 = new Scanner(System.in);
+            	int coin = input2.nextInt();
+            	if(coin < 0){
+                	System.out.println("Error, You need to put a number greater than 0");
+	    	}
+	    	int qurter = coin / 25;
+            	int reminder = coin % 25;
+            	System.out.println("Use "+ qurter+ " quarters and " + reminder + " cents");
+  	}
 }
