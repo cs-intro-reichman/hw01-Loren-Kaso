@@ -8,9 +8,9 @@ import java.util.Scanner;
  */
 public class LinearEq {
     Scanner input3 = new Scanner(System.in);
-    double a = input3.nextDouble();
-    double b = input3.nextDouble();
-    double c = input3.nextDouble();
+    double a = Double.parseDouble(arg[0]);
+    double b = Double.parseDouble(arg[1]);
+    double c = Double.parseDouble(arg[2]);
     double result = (double) (c - b) / 2;
     System.out.println( a + " * " + "x" + " + " + b + " = " + c);
     System.out.print("x" + " = " + result);

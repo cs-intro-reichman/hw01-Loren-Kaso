@@ -4,8 +4,7 @@
  */
 public class Coins {
 	public static void main(String[] args) {
-		Scanner input2 = new Scanner(System.in);
-            	int coin = input2.nextInt();
+            	int coin = Integer.parseInt(args[0]);
             	if(coin < 0){
                 	System.out.println("Error, You need to put a number greater than 0");
 	    		}
